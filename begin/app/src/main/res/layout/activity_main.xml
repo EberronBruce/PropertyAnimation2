@@ -71,15 +71,15 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-            android:text="Background Color"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="@+id/translateButton"
-            app:layout_constraintTop_toBottomOf="@+id/rotateButton"
-            android:id="@+id/colorizeButton"
-            android:layout_marginStart="@dimen/standard_margin"
-            android:layout_marginBottom="@dimen/standard_margin"
-            app:layout_constraintStart_toStartOf="parent"/>
+        android:id="@+id/colorizeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/standard_margin"
+        android:text="Background Color"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/translateButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotateButton" />
 
     <FrameLayout
             android:layout_width="match_parent"
